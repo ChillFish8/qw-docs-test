@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Sohne;
+    src: url("https://quickwit.io/assets/fonts/soehne-web-buch-11921e26322677d1a24a2d3d78c8a039.woff2");
+}
+
+.logo-block {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 1rem;
+    margin-top: 45px;
+}
+
+.logo-img {
+    width: 155px;
+}
+
+.logo-text {
+    margin-left: 10px;
+    color: white;
+}
+
+rapi-doc::part(section-main-content) {
+    background: white !important;
+    font-family: Sohne, serif;
+}
+
+rapi-doc::part(section-operation-summary) {
+    font-weight: 900 !important;
+    font-family: Sohne, serif;
+}

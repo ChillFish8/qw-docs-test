@@ -1,0 +1,27 @@
+<!doctype html> <!-- Important: must specify -->
+<html>
+  <head>
+    <meta charset="utf-8"> <!-- Important: rapi-doc uses utf8 characters -->
+    <script type="module" src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+    <link rel="stylesheet" href="./extensions.css"/>
+  </head>
+  <body>
+    <rapi-doc
+      spec-url = "./openapi.json"
+      theme = "light"
+      bg-color = "white"
+      primary-color = "#16d18e"
+      nav-bg-color = "#2c3039"
+      show-header = false
+      show-info = false
+      allow-authentication = false
+      allow-server-selection = false
+      font-size = "largest"
+    >
+      <div slot="nav-logo" class="logo-block" >
+          <img src="./logo.svg" class="logo-img" alt="Quickwit"/>
+          <p class="logo-text">Docs</p>
+      </div>
+    </rapi-doc>
+  </body>
+</html>
